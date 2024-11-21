@@ -51,7 +51,7 @@ export function EnhancedDivisibleSpaceComponent() {
         capacity: 1
       })))
     }
-  }, [])
+  }, [cols, rows])
 
   const handleDivisionChange = (newRows: number, newCols: number) => {
     setRows(newRows)
